@@ -22,3 +22,7 @@ test('converts "💪" prop to "flex"', t => {
 test('converts "💪-grow" prop to "flex-grow"', t => {
     return run(t, 'a{ 💪-grow: 0.6; }', 'a{ flex-grow: 0.6; }', { });
 });
+
+test('converts "-ms-💪-order" prop to "-ms-flex-order"', t => {
+    return run(t, 'a{ -ms-💪-order: 2; }', 'a{ -ms-flex-order: 2; }', { });
+});

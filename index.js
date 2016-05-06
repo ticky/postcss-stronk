@@ -7,8 +7,8 @@ module.exports = postcss.plugin('postcss-stronk', function () {
                 decl.value = 'flex';
             }
         });
-        css.walkDecls(/^💪/, function (decl) {
-            decl.prop = decl.prop.replace(/^💪/, 'flex');
+        css.walkDecls(/💪/, function (decl) {
+            decl.prop = decl.prop.replace(/💪/, 'flex');
         });
     };
 });
