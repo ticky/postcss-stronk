@@ -1,0 +1,35 @@
+# PostCSS Stronk [![Build Status][ci-img]][ci]
+
+[PostCSS] plugin to really let you flex your muscles.
+
+[PostCSS]: https://github.com/postcss/postcss
+[ci-img]:  https://travis-ci.org/ticky/postcss-stronk.svg
+[ci]:      https://travis-ci.org/ticky/postcss-stronk
+
+```css
+.foo {
+    display: 💪;
+}
+
+.foo .bar {
+    💪-grow: 0.6;
+}
+```
+
+```css
+.foo {
+  display: flex;
+}
+
+.foo .bar {
+    flex-grow: 0.6;
+}
+```
+
+## Usage
+
+```js
+postcss([ require('postcss-stronk') ])
+```
+
+See [PostCSS] docs for examples for your environment.
