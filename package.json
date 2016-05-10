@@ -1,6 +1,6 @@
 {
   "name": "postcss-stronk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin to really let you flex your muscles",
   "keywords": [
     "postcss",
