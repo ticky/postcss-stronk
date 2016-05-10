@@ -8,7 +8,13 @@
     "postcss-plugin",
     "flex",
     "emoji",
-    "nonsense"
+    "nonsense",
+    "💪",
+    "💪🏻",
+    "💪🏼",
+    "💪🏽",
+    "💪🏾",
+    "💪🏿"
   ],
   "author": "Jessica Stokes <hello@jessicastokes.net>",
   "license": "MIT",
