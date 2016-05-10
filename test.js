@@ -22,3 +22,9 @@ test('converts "💪" prop to "flex"', t => {
 test('converts "💪-grow" prop to "flex-grow"', t => {
     return run(t, 'a{ 💪-grow: 0.6; }', 'a{ flex-grow: 0.6; }', { });
 });
+
+test('won\'t break stronk content', t => {
+    return run(t,
+        'a::before{ content: \'💪\'; }',
+        'a::before{ content: \'💪\'; }');
+});
