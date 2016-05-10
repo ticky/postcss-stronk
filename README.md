@@ -26,6 +26,7 @@
 }
 ```
 
+
 ## Usage
 
 ```js
@@ -33,3 +34,8 @@ postcss([ require('postcss-stronk') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+
+## Caveats
+
+* Using this plugin may result in excess 💪 desire.  Some users have reported wanting to 💪 after only seeing mention of the plugin.  You have been warned.
