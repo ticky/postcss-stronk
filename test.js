@@ -28,3 +28,7 @@ test('won\'t break stronk content', t => {
         'a::before{ content: \'💪\'; }',
         'a::before{ content: \'💪\'; }');
 });
+
+test('converts "-ms-💪-order" prop to "-ms-flex-order"', t => {
+    return run(t, 'a{ -ms-💪-order: 2; }', 'a{ -ms-flex-order: 2; }', { });
+});
