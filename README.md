@@ -12,7 +12,8 @@
 }
 
 .foo .bar {
-    💪-grow: 0.6;
+    💪🏾-grow: 0.6;
+    💪🏻-basis: min-content;
 }
 ```
 
@@ -23,6 +24,7 @@
 
 .foo .bar {
     flex-grow: 0.6;
+    flex-basis: min-content;
 }
 ```
 
