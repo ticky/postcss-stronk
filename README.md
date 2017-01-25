@@ -1,5 +1,7 @@
 # PostCSS Stronk [![Build Status][ci-img]][ci]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ticky/postcss-stronk.svg)](https://greenkeeper.io/)
+
 [PostCSS] plugin to really let you flex your muscles.
 
 [PostCSS]: https://github.com/postcss/postcss
