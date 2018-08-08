@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/ticky/postcss-stronk",
   "dependencies": {
-    "postcss": "^5.0.16"
+    "postcss": "5.2.18"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
-    "eslint": "^2.1.0",
-    "eslint-config-postcss": "^2.0.0"
+    "ava": "0.14.0",
+    "eslint": "2.13.1",
+    "eslint-config-postcss": "2.0.2"
   },
   "scripts": {
     "test": "ava && eslint *.js"
