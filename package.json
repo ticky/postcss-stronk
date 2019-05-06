@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ticky/postcss-stronk",
   "dependencies": {
-    "postcss": "7.0.14"
+    "postcss": "7.0.16"
   },
   "devDependencies": {
     "ava": "1.4.1",
